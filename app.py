@@ -4,7 +4,7 @@ from utilities import numerical_rating
 from PIL import Image
 
 # Load the model
-filename = "saved_models/rf_dep.pkl"
+filename = "https://github.com/cla108/CPSC4820/blob/main/saved_models/rf_dep.pkl"
 rf_model = pickle.load(open(filename, "rb"))
 
 def main():
