@@ -9,7 +9,7 @@ from fastapi import FastAPI, Path, Query
 from parameters.body_params import HouseFeatures
 
 # Load the model
-filename = "saved_models/rf_dep.pkl"
+filename = "https://github.com/cla108/CPSC4820/blob/main/saved_models/rf_dep.pkl"
 rf_model = pickle.load(open(filename, "rb"))
 
 # Initialize the app
